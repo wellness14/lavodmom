@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* 승희아빠 */
+
+/* 새글 스킨 (latest) */
+.kor { word-wrap: break-word; word-break: keep-all; }/* 한글 줄바꿈 */
+.latest {
+	max-width:100%; /* Customise it accordingly */
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.latest-more { margin-top:6px; }
+.latest-right { width:85px; text-align:right; }
+.latest-hr { display:block; margin:5px 0px; }
